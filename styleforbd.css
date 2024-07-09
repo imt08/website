@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+	 background-image:url('pngtree-geometric-gradient-creative-blood-donation-poster-background-material-image_134137.jpg');
+    background-repeat:no-repeat;
+    background-size: 150% 150%;
+}
+.main{
+	position: relative;
+    display: grid;
+    grid-template-rows: 100px 30px 280px 240px 150px 30px;
+    grid-template-columns:250px 250px auto auto; 
+    gap: 5px;
+}
+
+.div1{
+	position: relative;
+   background: rgba(76, 175, 80, 0.3);
+    /*
+    all columns
+    col-start/col-end
+    */
+    grid-column: 1/span 8;
+	 border: 0.5px solid black;
+}
+.div2{
+   background: rgba(76, 175, 80, 0.3);
+    
+    grid-column: 1/span 8;
+	
+}
+.div3{
+	position: relative;
+    background: rgba(76, 175, 80, 0.3);
+	grid-column:1/span 3;
+	 border: 0.5px solid black;
+}
+.div4{
+    background: rgba(76, 175, 80, 0.3);
+	grid-column:4/span 5;
+	 border: 0.5px solid black;
+}
+.div5{
+	position: relative;
+   background: rgba(76, 175, 80, 0.3);
+   grid-column: 1/span 8;
+    border: 0.5px solid black;
+}
+.div6{
+	position: relative;
+   background: rgba(76, 175, 80, 0.3);
+    grid-column: 1/span 8;
+	 border: 0.5px solid black;
+}
+.div7{
+	position: relative;
+   background: rgba(76, 175, 80, 0.3);
+    grid-column: 1/span 8;
+	 border: 0.5px solid black;
+}
+.login{
+	position: absolute;
+	right: 5px;
+	top: 50px;
+}
+.header{
+	position: absolute;
+	left:15px;
+	top:10px;
+}
+.form-inline button {
+  padding: 5px 12px;
+  background-color: dodgerblue;
+  border: 0.5px solid black;
+  border-radius:15px;
+  color: white;
+  cursor: pointer;
+}
+.form-inline button:hover {
+  background-color: royalblue;
+}
+.form-inline input {
+  margin: 5px 10px 5px 0;
+  padding: 5px;
+  background-color: white;
+  border: 0.5px solid black;
+}
+.menu {
+  background-color: rgba(76, 175, 80, 0.3);
+}
+
+.menu a {
+  float: left;
+  color: #d6392d;
+  text-align: center;
+  padding: 5px 78.8px;
+  border: 0.5px solid black;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.menu a:hover {
+  background-color: #FE775B;
+  color: white;
+}
+.menu a.active {
+  background-color: #E75739;
+  color: white;
+}
+.feedback {
+  
+}
+
+.feedback a {
+  float: left;
+  color:#24b6d4;
+  text-align: center;
+  padding: 3px 78.8px;
+  border: 0.5px solid black;
+  text-decoration: none;
+  font-size: 17px;
+}
+.feedback a:hover {
+  background-color: #FE775B;
+color: white;
+}
+.footer{
+	 position: absolute;
+	 left: 400px;
+	 top: 3px;
+	 
+ }
+.heading{
+	position: absolute;
+	left:20px;
+	top:10px;
+}
+.matter{
+	position: absolute;
+	left:20px;
+	top:40px
+}
+.heading2{
+	position: absolute;
+	left:20px;
+	top:10px;
+}
+.search_bar{
+	position: absolute;
+	top:75px;
+	left:50px;
+}
+.search_bar button {
+  padding: 5px 20px;
+  background-color: dodgerblue;
+  border: 0.5px solid blue;
+  border-radius:10px;
+  color: white;
+  cursor: pointer;
+}
+.search_bar button:hover {
+  background-color: royalblue;
+}
+.search_bar input {
+	width: 700px;
+  margin: 5px 10px 5px 0;
+  padding: 5px 10px;
+  background-color: white;
+  border: 0.5px solid blue;
+}
+.heading3{
+	position: absolute;
+	left: 180px;
+	top: 10px;
+}
+.fad{
+	position: absolute;
+	left:100px;
+	top:50px;
+}
+.fad button {
+	position:absolute;
+	left:110px;
+  padding: 5px 10px;
+  background-color: dodgerblue;
+  border: 0.5px solid black;
+  border-radius:10px;
+  color: white;
+  cursor: pointer;
+}
+.fad button:hover {
+  background-color: royalblue;
+}
+.fad select{
+	width:200px;
+	margin: 5px 10px 5px 0;
+  padding: 5px;
+  background-color: white;
+  border: 0.5px solid black;	
+}
